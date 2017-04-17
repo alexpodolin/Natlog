@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext);
+
+div.pages-list a.active {
+color: #000;
+background-color: #A9E0FF;
+}
+div.pages-list {
+clear: both;
+padding-top: 12px;
+}
+div.header {
+margin: 5px 30px 30px 30px;
+}
+div.table {
+display:table;
+border-collapse: collapse;
+}
+div.table > div {
+display:table-row;
+}
+div.table > div > div {
+display:table-cell;
+padding:10px;
+border: solid 1px #B4B3AE;
+}
+div.table > div.head > div {
+background-color:#f0f0f0;
+}
+div.table-hovered > div:hover > div {
+background-color:#FFF7E5;
+}
+div.table-hovered > div.head:hover > div {
+background-color:#f0f0f0;
+}
+div.table-clickable > div:not(.head):hover > div {
+cursor:pointer
+}
+div.kdo-main {
+padding:0 30px;
+font-family: 'Roboto', sans-serif;
+}
+div.kdo-main h1 {
+margin-top:0;
+font-weight:normal;
+}
+
+form.input-search-address {
+max-width: 600px;
+margin: 0 auto;
+background-color: #FFDB4C;
+height: 40px;
+padding: 2px;
+}
+form.input-search-address input[type='text'] {
+width: 100%;
+border: none;
+padding-left: 4px;
+box-sizing: border-box;
+outline: none;
+}
+form.input-search-address input[type='radio'] {
+min-height:initial;
+}
+
+nav {
+padding: 15px 317px;
+}
+nav a {
+padding: 15px;
+font-size:20px;
+color:#3DC533;
+}
+nav a:hover {
+color:red;
+}
+nav a.active {
+text-decoration:none;
+color:inherit;
+}
+
+label, label * {
+cursor:pointer;
+}
+label input[type='radio'] {
+position:relative;
+top:2px;
+}
+
+a.pages {
+padding: 3px 9px;
+border-right: 1px solid #fff;
+text-decoration: none;
+color: #fff;
+background-color: #0087F4;
+}
+a.pages:hover {
+opacity:0.6;
+}
+
+select.pages-list-select {
+height: 27px;
+margin-left: 15px;
+padding: 0 10px 0 5px;
+}
+
+body {
+position: absolute;
+width: 100%;
+height: 101%;
+}
+
+.text-center {
+text-align:center;
+}
+.okno {
+position: absolute;
+top:-31px;
+background-color:#fff;
+margin:0 auto;
+z-index:1000;
+height:1px;
+overflow:hidden;
+padding:15px;
+max-width:900px;
+}
+.okno h3:first-child {
+margin-top:0;
+}
+.okno-float-top {
+-webkit-transition: top ease-in 0.2s;
+-moz-transition: top ease-in 0.2s;
+transition: top ease-in 0.2s;
+}
+
+.overhead {
+height: 100%;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index:100;
+}
+.overhead-shadow {
+background-color: rgba(0,0,0,.5);
+}
+.overhead-closed {
+cursor:pointer;
+}
+.popup-close-button {
+position: absolute;
+top: 0;
+right: 10px;
+font-size: 1.5em;
+cursor:pointer;
+}
+.popup-close-button:hover {
+color:red;
+}
+.clear {
+clear:both;
+}
+
+#form-answer h3 {
+text-align:center;
+}
+#form-answer div.table {
+margin:0 auto;
+}
